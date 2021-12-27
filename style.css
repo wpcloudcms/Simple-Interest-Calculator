@@ -25,3 +25,12 @@ label {
 button {
     margin: 10px 0px;
 }
+input#principal {
+    margin-left: 40px;
+}
+input#rate {
+    margin-left: 60px;
+}
+select#years {
+    margin-left: 10px;
+}
