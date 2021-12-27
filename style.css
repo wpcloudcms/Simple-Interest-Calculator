@@ -25,6 +25,3 @@ label {
 button {
     margin: 10px 0px;
 }
-input#principal:focus {
-    border: 5px solid #ffff4f !important;
-}
