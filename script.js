@@ -12,7 +12,7 @@ function compute()
     document.getElementById("result").innerHTML=""
     } else {
         var year = new Date().getFullYear()+parseInt(years);
-    document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"
+    document.getElementById("result").innerHTML="If you deposit <span>"+principal+"</span>,\<br\>at an interest rate of <span>"+rate+"%</span>\<br\>You will receive an amount of <span>"+interest+"</span>,\<br\>in the year <span>"+year+"</span>\<br\>"
         }
 
 }

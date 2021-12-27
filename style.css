@@ -16,7 +16,7 @@ div#result {
     margin: 10px 0px;
     line-height: 20px;
 }
-span.results {
+span#result span {
     background: #ffff4f;
 }
 label {
