@@ -1,22 +1,30 @@
-body {
-    background-color:rgb(0, 0, 0);
-    font-size: 14px;
-}
-h1 {
-    color: #808080;
-    font-weight: 700;
-}
-.box {
-    background: #fff;
-    width: 80%;
-    max-width: 480px;
-    margin: auto;
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
+.maindiv {
+    background: white;
+    color:black;
+    width: 500px;
     padding: 20px;
-    border-radius: 20px;
-    font-family: sans-serif;
+    border-radius: 25px;
+    margin: auto;
 }
 section {
     width: 75%;
     margin: auto;
 }
-
+div#result {
+    margin: 10px 0px;
+    line-height: 20px;
+}
+span.results {
+    background: #ffff4f;
+}
+label {
+    line-height: 25px;
+}
+button {
+    margin: 10px 0px;
+}
+input#principal:focus {
+    border: 5px solid #ffff4f !important;
+}
